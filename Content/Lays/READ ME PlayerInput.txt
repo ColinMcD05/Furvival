@@ -1,0 +1,6 @@
+Notes from Lays Perez about PlayerInput folder of Furvival on 5-21-26
+
+IA = Input Action
+IMC = Input Mapping Context
+BP = Blueprint
+Base Controller = refers to the player input
