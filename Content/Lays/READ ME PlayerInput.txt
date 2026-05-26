@@ -30,5 +30,11 @@ Stamina Drain Rate = 0.2 seconds
 Stamina Gain Rate = 1 seconds
 1 Stamina per 0.1 seconds
 Player starts with a current stamina of 100
+Base Damage = 20
+Health = 100
+
+DEVELOPER HOT KEYS
+f key = player takes BaseDamage
+
 
 
