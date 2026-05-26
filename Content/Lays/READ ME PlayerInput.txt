@@ -19,7 +19,8 @@ Move left = A, LEFT Arrow
 Move right = D, RIGHT Arrow
 Look = Mouse movement
 Sprint = Left Shift
-Crouch = Left Control
+Toggle Crouch = Left Control
+Jump = Space Bar
 
 SPECS
 Player max walk speed = 500
