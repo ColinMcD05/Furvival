@@ -1,5 +1,7 @@
 Notes from Lays Perez about PlayerInput folder of Furvival on 5-21-26
-Updated on 5-26-25
+Updated on 5-30-25
+
+-------------------------------------------------------------------------------------------------
 
 KEY
 IA = Input Action
@@ -9,8 +11,13 @@ Base Controller = refers to the player input
 WB = Widget Blueprint
 ED = Event Dispatcher
 
+-------------------------------------------------------------------------------------------------
+
 KEY COLORS FOR PROGRAMMING COMMENTS
 BLUE = Working but can be improved upon
+WHITE = Debug Code, will most likely be deleted at a later point
+
+-------------------------------------------------------------------------------------------------
 
 CONTROLS
 Move forward = W, UP Arrow
@@ -21,6 +28,10 @@ Look = Mouse movement
 Sprint = Left Shift
 Toggle Crouch = Left Control
 Jump = Space Bar
+Close Role Screen = ESC, R
+Open Role Screen = R
+
+-------------------------------------------------------------------------------------------------
 
 SPECS
 Player max walk speed = 500
@@ -37,8 +48,11 @@ Health = 100
 Max Speed when crouched = 250cm / seconds
 Height when crouched = 50 
 
+-------------------------------------------------------------------------------------------------
+
 DEVELOPER HOT KEYS
 f key = player takes BaseDamage
+. key = Force Quit the game
 
 
 
