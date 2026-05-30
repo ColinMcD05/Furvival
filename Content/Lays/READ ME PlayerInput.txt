@@ -19,6 +19,8 @@ Move left = A, LEFT Arrow
 Move right = D, RIGHT Arrow
 Look = Mouse movement
 Sprint = Left Shift
+Toggle Crouch = Left Control
+Jump = Space Bar
 
 SPECS
 Player max walk speed = 500
@@ -32,6 +34,8 @@ Stamina Gain Rate = 1 seconds
 Player starts with a current stamina of 100
 Base Damage = 20
 Health = 100
+Max Speed when crouched = 250cm / seconds
+Height when crouched = 50 
 
 DEVELOPER HOT KEYS
 f key = player takes BaseDamage
