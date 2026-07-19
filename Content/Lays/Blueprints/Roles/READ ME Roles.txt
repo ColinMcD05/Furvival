@@ -1,0 +1,74 @@
+Notes from Lays Perez about Roles folder of Furvival on 5-29-26
+Updated on 5-30-26
+
+-------------------------------------------------------------------------------------------------
+
+SUDO CODE
+
+Player is assigned a random role when they spawn into the game
+A UI Overlay will show there role
+Click escape key or the continue button to close the role overlay
+Click R to open it back up
+Game time will not stop but player movement, input, camera, and interact controls will be frozen
+Players will not have to wait for other players to close the role overlay before playing.
+Players may want to look at there role sheet anytime during the game.
+
+-------------------------------------------------------------------------------------------------
+
+KEY
+
+E = Enumeration
+WB = Widget Blueprint
+? = Boolean
+
+-------------------------------------------------------------------------------------------------
+
+KEY COLORS FOR PROGRAMMING COMMENTS
+
+BLUE = Working but can be improved upon
+WHITE = Debug Code, will most likely be deleted at a later point
+
+-------------------------------------------------------------------------------------------------
+
+BP_BaseCharacter VARIABLES
+
+NumOfRoles = 3 <--- Set this to the current number of total role types
+
+-------------------------------------------------------------------------------------------------
+
+WB_RoleScreen VARIABLES
+
+-------------------------------------------------------------------------------------------------
+
+STEPS TO ADD A NEW ROLE
+
+Content Drawer > Roles folder > E_PlayerRole
+
+Add Enumerator button
+Change the Display name to the Role name
+Save
+
+BP_BaseCharacter > Set NumOfRoles Variable to the current number of total role types
+
+BP_BaseCharacter > Event BeginPlay > Switch On Int > Add pin > Duplicate Set Current Role > Use the dropdown to select the new role > Connect it to Open Role Screen Event
+WB_RoleScreen > Graph > Duplicate Master Role Comment > Rename > Change In Text to Role Name > Connect to Switch on E_PlayerRole
+-------------------------------------------------------------------------------------------------
+
+CONTROLS
+Move forward = W, UP Arrow
+Move backward = S, DOWN Arrow
+Move left = A, LEFT Arrow
+Move right = D, RIGHT Arrow
+Look = Mouse movement
+Sprint = Left Shift
+Toggle Crouch = Left Control
+Jump = Space Bar
+Close Role Screen = ESC, R
+Open Role Screen = R
+
+-------------------------------------------------------------------------------------------------
+
+DEVELOPER HOT KEYS
+f key = player takes BaseDamage
+. key = Force Quit the game
+
