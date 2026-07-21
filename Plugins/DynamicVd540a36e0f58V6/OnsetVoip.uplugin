@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.8.5",
+	"FriendlyName": "Onset VoIP plugin",
+	"Description": "Feature-rich plugin for VoIP communication.",
+	"Category": "Other",
+	"CreatedBy": "Blue Mountains",
+	"CreatedByURL": "https://onset.gg",
+	"DocsURL": "https://drive.google.com/file/d/1cf7v4tUiaX3rLUOcUt8cFk5MT8ujFiD2/view",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d53a88511bb14a60a7b4082a6f2544f2",
+	"SupportURL": "https://discord.gg/myUmdZddgx",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "OnsetVoip",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		}
+	]
+}
